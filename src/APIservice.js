@@ -24,6 +24,11 @@ class APIservice{
         return axios.get("http://localhost:9001/gettask")
     }
 
+    gettaskByuserId(id)
+    {
+        return axios.get("http://localhost:9001/getbyuserid/"+ id);
+    }
+
     taskdeleteBytid(tid)
     {
         console.log(tid);

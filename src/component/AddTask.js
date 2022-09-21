@@ -16,8 +16,7 @@ function AddTask()
    const c=useParams();
    // console.log(c);
     let id=c.id
-console.log("accpeted ",id);
-    
+console.log("accpeted ",id); 
    
     const taskadd =(e)=>{
         e.preventDefault();
@@ -30,7 +29,6 @@ console.log("accpeted ",id);
             alert(response.data);
             console.log(response.data);
         }).catch(error=>{console.log(error)})
-
         
     }
 
@@ -72,7 +70,7 @@ console.log("accpeted ",id);
 </form>
  {/* <h1>this is from {a.id}</h1> */}
 <div className="Addtaskpage"><Link to="/showalltask"> Show All task</Link></div>
-
+{/* <div className="Addtaskpage"><Link  to={`showtaskbyuser/${id}`}> Show All task</Link></div> */}
 
               </div>
             </div>
