@@ -1,0 +1,53 @@
+
+.child{
+
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ color:white;
+}
+body{
+  background-color: rgb(48, 42, 42);
+  color:white;
+}
+form-group row Link{
+  position: absolute;
+  right:10%;
+  top:50%;
+  color:white;
+}
+
+.Loginpage a{
+  color: white;
+  position: absolute;
+  right: 0%;
+  top: 86%;
+  /* left:77%; */
+  text-decoration: none;
+  background-color: transparent;
+}
+.maindiv{
+  background-color: lightcoral;
+  color: white;
+}
+
+.parent{
+
+color:white;
+border:3px solid white;
+padding: 10px;
+}
+
+.Addtaskpage a{
+  position: absolute;
+    top: 94%;
+    right: 0%;
+}
+
+.maindivinapp
+{
+  background-color: lightcoral;
+  color: yellow;
+  border: 5px solid blue;
+}
